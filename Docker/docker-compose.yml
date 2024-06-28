@@ -1,0 +1,36 @@
+version: '3.9'
+
+services:
+
+  db:
+    image: postgres
+    container_name: mypostgres
+      ports:
+        - "8080:8080"
+      volumes:
+        - postgres-data:/usr/share/postgres/html
+      deploy:
+        resources:
+          limits:
+            memory: 512M
+            cpus: '1.0'
+      restart: unless-stopped
+      environment:
+        POSTGRES_PASSWORD: mysecretpassword
+
+  services:
+    image: grafana/grafana
+    container_name: mygrafana
+      ports:
+        - "3000:3000"
+      volumes:
+        - grafana-data:/usr/share/grafana/html
+      deploy:
+        resources:
+          limits:
+            memory: 1g
+            cpus: '2.0'
+            restart: unless-stopped
+volumes:
+  postgres-data:
+  grafana-data:
