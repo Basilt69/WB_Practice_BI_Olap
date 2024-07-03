@@ -3,5 +3,5 @@
 `docker-compose up -d`  
 `docker compose ps`
 
-![Intermediate results](Kafka/images/img.png)
+![Intermediate results](WB_Practice_BI_Olap\Kafka\images\img.png)
 
