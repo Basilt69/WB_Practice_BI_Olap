@@ -13,8 +13,8 @@
 
 ## 3. Insert of data into Kafka topic
 `cd scripts`  
-`python producer.py`
-![Logs of insert]()
+`python producer.py`  
+![Logs of insert](https://github.com/Basilt69/WB_Practice_BI_Olap/blob/master/Kafka/images/img_5.png)  
 
 ![Results of insert](https://github.com/Basilt69/WB_Practice_BI_Olap/blob/master/Kafka/images/img_3.png)
 
