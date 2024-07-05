@@ -15,8 +15,9 @@
 `cd scripts`  
 `python producer.py`
 
-![Results of insert]()
+![Results of insert](https://github.com/Basilt69/WB_Practice_BI_Olap/blob/master/Kafka/images/img_3.png)
 
 ## 4. Read from Kafka topic using python script
+`python consumer.py`  
 
-![Reading results]()
+![Reading results](https://github.com/Basilt69/WB_Practice_BI_Olap/blob/master/Kafka/images/img_4.png)
