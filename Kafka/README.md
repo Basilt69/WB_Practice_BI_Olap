@@ -13,4 +13,10 @@
 
 ## 3. Insert of data into Kafka topic
 `cd scripts`  
-`python3 ch_producer.py`
+`python producer.py`
+
+![Results of insert]()
+
+## 4. Read from Kafka topic using python script
+
+![Reading results]()
