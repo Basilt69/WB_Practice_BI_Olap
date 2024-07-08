@@ -110,6 +110,7 @@ ENV/
 env.bak/
 venv.bak/
 ch.json
+ch_db.json
 
 # Spyder project settings
 .spyderproject
